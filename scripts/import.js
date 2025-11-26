@@ -26,7 +26,7 @@ fetch(fileRead)
 //Display guide when you click
 function loadGuide(fullPath) {
 	if (fullPath == "default") {
-		fullPath = "\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
+		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
 	}
 
 	let guideViewer = document.getElementById("guide-viewer")
