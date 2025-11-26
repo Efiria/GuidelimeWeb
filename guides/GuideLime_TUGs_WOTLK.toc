@@ -15,7 +15,7 @@ TUGs\Alliance\41-44Tanaris,STV.lua
 TUGs\Alliance\44-45Feralas.lua
 TUGs\Alliance\45-47Tanaris,Hinterlands.lua
 TUGs\Alliance\47-49Searing Gorge.lua
-TUGs\Alliance\49-51Un'Goro.lua
+TUGs\Alliance\49-51UnGoro.lua
 TUGs\Alliance\52-53Felwood.lua
 TUGs\Alliance\55-56BS,WPL.lua
 TUGs\Alliance\56-60WPL,EPL,BS.lua
@@ -53,8 +53,8 @@ TUGs\Alliance\63-64Terokkar Forest Part I.lua
 TUGs\Alliance\64-64Terokkar Forest Part II.lua
 TUGs\Alliance\64-65Nagrand Part I.lua
 TUGs\Alliance\65-66Nagrand Part II.lua
-TUGs\Alliance\66-67Blade's Edge Mountains Part I.lua
-TUGs\Alliance\67-67Blade's Edge Mountains Part II.lua
+TUGs\Alliance\66-67Blades Edge Mountains Part I.lua
+TUGs\Alliance\67-67Blades Edge Mountains Part II.lua
 TUGs\Alliance\67-68Netherstorm I.lua
 TUGs\Alliance\69-69Netherstorm II.lua
 TUGs\Alliance\69-70Shadowmoon Valley.lua
