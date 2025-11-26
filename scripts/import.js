@@ -12,6 +12,7 @@ fetch(fileRead)
 			let formatedPath = '\"..\\guides\\'+fullPath+'\"'
 
 			let element = fullPath.split("\\")
+			console.log(element)
 			if (element[0] != null && element[0].length > 1) {
 				if (element[2]) {
 					display += "<li class='list-group-item guide-list-element' onclick='loadGuide("+formatedPath+")'>"+element[2]+"</li>"
