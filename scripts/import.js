@@ -13,7 +13,7 @@ fetch(fileRead)
 			let fullPath = splitData[index]
 			let element = fullPath.split("\\")
 			
-			let formatedPath= ('"'+element[0] +'-'+ element[1]+'-'+ element[2]+'.lua"')
+			let formatedPath= ('"guides_'+element[0] +'_'+ element[1]+'_'+ element[2]+'.lua"')
 			console.log(element)
 			if (element[0] != null && element[0].length > 1) {
 				if (element[2]) {
@@ -29,10 +29,9 @@ fetch(fileRead)
 //Display guide when you click
 function loadGuide(fullPath) {
 	if (fullPath == "default") {
-		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
-	} else {
-		fullPath.replace('-','\\')
-	}
+		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Human.lua"
+	} 
+	fullPath = fullPath.replaceAll('_','\\')
 	console.log(fullPath)
 	let guideViewer = document.getElementById("guide-viewer")
 	let display = ''
