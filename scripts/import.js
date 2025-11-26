@@ -9,7 +9,7 @@ fetch(fileRead)
 		let display = "Guide List"
 		for (let index = 0; index < splitData.length; index++) {
 			let fullPath = splitData[index]
-			let formatedPath = '\"\\guides\\'+fullPath+'\"'
+			let formatedPath = '\".\\guides\\'+fullPath+'\"'
 
 			let element = fullPath.split("\\")
 			if (element[0] != null && element[0].length > 1) {
