@@ -1,4 +1,4 @@
-var fileRead = 'GuidelimeWeb\\guides\\GuideLime_TUGs_WOTLK.toc'
+var fileRead = '\\guides\\GuideLime_TUGs_WOTLK.toc'
 
 //Display the list of guide available
 fetch(fileRead)
@@ -27,7 +27,7 @@ fetch(fileRead)
 //Display guide when you click
 function loadGuide(fullPath) {
 	if (fullPath == "default") {
-		fullPath = "GuidelimeWeb\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
+		fullPath = "\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
 	}
 
 	let guideViewer = document.getElementById("guide-viewer")
