@@ -1,4 +1,4 @@
-var fileRead = '.\\guides\\GuideLime_TUGs_WOTLK.toc'
+var fileRead = '..\\guides\\GuideLime_TUGs_WOTLK.toc'
 
 //Display the list of guide available
 fetch(fileRead)
@@ -9,7 +9,7 @@ fetch(fileRead)
 		let display = "Guide List"
 		for (let index = 0; index < splitData.length; index++) {
 			let fullPath = splitData[index]
-			let formatedPath = '\".\\guides\\'+fullPath+'\"'
+			let formatedPath = '\"..\\guides\\'+fullPath+'\"'
 
 			let element = fullPath.split("\\")
 			if (element[0] != null && element[0].length > 1) {
@@ -26,7 +26,7 @@ fetch(fileRead)
 //Display guide when you click
 function loadGuide(fullPath) {
 	if (fullPath == "default") {
-		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
+		fullPath = "..\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
 	}
 
 	let guideViewer = document.getElementById("guide-viewer")
