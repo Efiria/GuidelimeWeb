@@ -1,6 +1,11 @@
-#guide-list {
-    max-height: 50em;
+#guide-list, #guide-viewer {
+    max-height: 48em;
     overflow-y: auto;
+}
+
+#title {
+    height: 130px;
+    padding: 25px;
 }
 
 .guide-list-element:hover {
