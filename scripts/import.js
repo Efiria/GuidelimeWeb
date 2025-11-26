@@ -4,7 +4,9 @@ var fileRead = '.\\guides\\GuideLime_TUGs_WOTLK.toc'
 fetch(fileRead)
   	.then(response => response.text())
   	.then((data) => {
+		console.log(data)
 		splitData = data.toString().split('\r\n')
+		console.log(splitData)
 		let ul = document.getElementById("guide-list-display")
 		let display = "Guide List"
 		for (let index = 0; index < splitData.length; index++) {
