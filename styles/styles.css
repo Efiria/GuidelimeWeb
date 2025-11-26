@@ -1,0 +1,9 @@
+#guide-list {
+    max-height: 50em;
+    overflow-y: auto;
+}
+
+.guide-list-element:hover {
+    cursor: pointer;
+    color: brown;
+}
