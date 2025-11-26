@@ -5,15 +5,15 @@ fetch(fileRead)
   	.then(response => response.text())
   	.then((data) => {
 		console.log(data)
-		splitData = data.toString().split('\r\n')
+		splitData = data.toString().split('.lua')
 		console.log(splitData)
 		let ul = document.getElementById("guide-list-display")
 		let display = "Guide List"
 		for (let index = 0; index < splitData.length; index++) {
 			let fullPath = splitData[index]
-			let formatedPath = '".\\guides\\'+fullPath+'\"'
-
 			let element = fullPath.split("\\")
+			
+			let formatedPath= ('"'+element[0] +'-'+ element[1]+'-'+ element[2]+'.lua"')
 			console.log(element)
 			if (element[0] != null && element[0].length > 1) {
 				if (element[2]) {
@@ -30,8 +30,10 @@ fetch(fileRead)
 function loadGuide(fullPath) {
 	if (fullPath == "default") {
 		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Dwarf&Gnome.lua"
+	} else {
+		fullPath.replace('-','\\')
 	}
-
+	console.log(fullPath)
 	let guideViewer = document.getElementById("guide-viewer")
 	let display = ''
 
