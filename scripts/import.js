@@ -5,7 +5,7 @@ fetch(fileRead)
   	.then(response => response.text())
   	.then((data) => {
 		console.log(data)
-		splitData = data.toString().split('.lua')
+		splitData = data.toString().split(/\r\n|\r|\n/g)
 		console.log(splitData)
 		let ul = document.getElementById("guide-list-display")
 		let display = "Guide List"
@@ -13,7 +13,7 @@ fetch(fileRead)
 			let fullPath = splitData[index]
 			let element = fullPath.split("\\")
 			
-			let formatedPath= ('"guides_'+element[0] +'_'+ element[1]+'_'+ element[2]+'.lua"')
+			let formatedPath= ('"guides_'+element[0] +'_'+ element[1]+'_'+ element[2])
 			console.log(element)
 			if (element[0] != null && element[0].length > 1) {
 				if (element[2]) {
@@ -39,7 +39,7 @@ function loadGuide(fullPath) {
 	fetch(fullPath)
 	.then(response => response.text())
 	.then((data) => {
-		splitData = data.toString().split('\r\n')
+		splitData = data.toString().split(/\r\n|\r|\n/g)
 		for (let index = 0; index < splitData.length; index++) {
 			const element = splitData[index];
 			if (index > 2 && index < (splitData.length-1)) {
