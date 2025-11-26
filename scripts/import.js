@@ -1,4 +1,4 @@
-var fileRead = encodeURI('\\guides\\GuideLime_TUGs_WOTLK.toc')
+var fileRead = '.\\guides\\GuideLime_TUGs_WOTLK.toc'
 
 fetch(fileRead)
   .then(response => response.text())
