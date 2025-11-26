@@ -1,0 +1,52 @@
+Guidelime.registerGuide(
+[[
+[GA Horde]
+[N79g Icecrown - Horde]
+[NX79h Icecrown - Horde]
+[D This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV]
+This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV
+I am marking EVERY Elite quest and dungeons as optional in this guide. Especially on release you should do them!!! You'll easily find groups for elite quests and dungeons.
+TODO: Add Intelligence daily as this opens other quests. ID12838
+TurnIn: [QT12806]
+Accept: [QA12807]
+Do: [QC12807]
+TurnIn: [QT12807]
+Accept: [QA12810]
+Accept: [QA12813]
+Do: [QC12810]
+Do: [QC12813]
+TurnIn: [QT12810]
+Accept: [QA12814]
+TurnIn: [QT12813]
+Do: [QC12814]
+TurnIn: [QT12814]
+Accept: [QA12815]
+Run to [G12.6, 41Icecrown]
+Mount the "Bone Gryphon". (Looks like a Horse skull). If you want u can read the spells or... just spam 1 and if they come close use 2. Use 4 to get fast from A to B. Use the Gryphon(with 4) to get back to Turn in the quest once done.
+Do: [QC12815]
+TurnIn: [QT12815]
+Run to [G24.4, 53.8Icecrown]
+Do: [QC13133]
+TurnIn: [QT13133]
+Accept: [QA13137][O]
+(Whenever you can)Do: [QC13137][O]
+TurnIn: [QT13137][O]
+Run to [G27.9, 37.7Icecrown]
+Do: [QC13071]
+Run to [G27.8, 33.7Icecrown]
+Do: [QC13069]
+TurnIn: [QT13069]
+TurnIn: [QT13071]
+Accept: [QA13168]
+Do: [QC13168]
+TurnIn: [QT13168]
+Accept: [QA13171]
+Accept: [QA13169]
+Accept: [QA13170]
+Use the orb again to take control of an Eidolon Watcher.
+Do [QC13171- ][QC13169- ][QC13170]
+Once done "leave" the vehicle. This will teleport you back to The Shadow Vault.
+TurnIn: [QT13171]
+TurnIn: [QT13169]
+TurnIn: [QT13170]
+]], "TUGs The Ultimate (Leveling) Guides")

@@ -1,0 +1,65 @@
+Guidelime.registerGuide(
+[[
+[GA Alliance]
+[N71d Borean Tundra - Alliance]
+[NX71e Borean Tundra - Alliance]
+[D This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV]
+This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV
+I am marking EVERY Elite quest and dungeons as optional in this guide. Especially on release you should do them!!! You'll easily find groups for elite quests and dungeons.
+TurnIn: [QT11733]
+Accept: [QA11918]
+Accept: [QA11912]
+Accept: [QA11900]
+Accept: [QA11910]
+Accept: [QA13094]
+Kill Coldarra Spellbinders until you loot a Scintillating Fragment. Thats a questItem. Accept it.
+Accept: [QA11941]
+TurnIn: [QT11941]
+Accept: [QA11943]
+Do [QC11900,3- ][QC11943,2- ][QC11900,4- ][QC11943,1 ][QC11900,2]
+TurnIn: [QT11943]
+Use the questItem you just got.
+Accept: [QA11946]
+TurnIn: [QT11946]
+Accept: [QA11951]
+Do: [QC11918]
+Do: [QC11912]
+Do: [QC11910]
+TurnIn: [QT11951]
+Accept: [QA11957]
+TurnIn: [QT11918]
+Accept: [QA11936]
+TurnIn: [QT11912]
+Accept: [QA11914]
+TurnIn: [QT11910]
+Accept: [QA11911]
+Talk to Keristrasza and say that you're ready to face Saragosa. Use your Arcane Power Focus and kill the now weakened Saragosa.
+Do: [QC11957]
+Use the questItem again
+TurnIn: [QT11957]
+Accept: [QA11967]
+Use the questItem again and get teleported to Transitus Shield.
+TurnIn: [QT11967]
+Accept: [QA11969]
+Kill Coldarra Wyrmkins for 5 Frozen Axes.
+Do: [QC11900,1]
+Do: [QC11914]
+Do: [QC11936]
+Do: [QC11969]
+TurnIn: [QT11914]
+TurnIn: [QT11936]
+Accept: [QA11919]
+TurnIn: [QT11900]
+Accept: [QA11905]
+TurnIn: [QT11969]
+Accept: [QA11973]
+Do: [QC11919]
+TurnIn: [QT11919]
+Accept: [QA11931]
+Accept: [QA11940]
+Do: [QC11931]
+Do: [QC11940]
+TurnIn: [QT11931]
+TurnIn: [QT11940]
+You got all Nexus-Dungeon quests now. I will NOT list them here as part of the guide. Do them as you please.
+]], "TUGs The Ultimate (Leveling) Guides")

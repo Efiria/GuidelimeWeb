@@ -1,0 +1,42 @@
+Guidelime.registerGuide(
+[[
+[GA Alliance]
+[N70b Howling Fjord - Alliance]
+[NX70c Howling Fjord - Alliance]
+[D This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV]
+This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV
+I am marking EVERY Elite quest and dungeons as optional in this guide. Especially on release you should do them!!! You'll easily find groups for elite quests and dungeons.
+Do: [QC11426]
+Do: [QC11343]
+TurnIn: [QT11251]
+Accept: [QA13205][O]
+Accept: [QA11252]
+Whilst continuing to quest look for a group for Utgarde Keep.
+TurnIn: [QT11343]
+Accept: [QA11344]
+TurnIn: [QT11426]
+Accept: [QA11427]
+Then talk to Guard Captain Zorek(same NPC u got the quest from) and fly to Lieutenant Icehammer.
+TurnIn: [QT11427]
+Accept: [QA11429]
+Do: [QC11429]
+TurnIn: [QT11429]
+Accept: [QA11430]
+Do: [QC11430]
+Do: [QC11344]
+TurnIn: [QT11448]
+Accept: [QA11474]
+TurnIn: [QT11474]
+Accept: [QA11475]
+Accept: [QA11460]
+Do: [QC11460]
+TurnIn: [QT11460]
+Accept: [QA11465]
+Accept: [QA11477]
+Do: [QC11475]
+Do: [QC11477]
+TurnIn: [QT11477]
+TurnIn: [QT11475]
+Accept: [QA11483]
+Accept: [QA11484]
+]], "TUGs The Ultimate (Leveling) Guides")
