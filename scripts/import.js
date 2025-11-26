@@ -1,4 +1,4 @@
-var fileRead = '..\\guides\\GuideLime_TUGs_WOTLK.toc'
+var fileRead = '.\\guides\\GuideLime_TUGs_WOTLK.toc'
 
 //Display the list of guide available
 fetch(fileRead)
