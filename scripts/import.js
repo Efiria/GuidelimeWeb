@@ -45,17 +45,20 @@ function loadGuide(fullPath) {
 			if (index > 2 && index < (splitData.length-1)) {
 				line = element.split(':')
 				//Accept: [QA233]
-				if (line[0] == "Accept") {
-					fetch("https://www.wowhead.com/quest=233&xml")
-						.then(response => response.text())
-						.then((data) => { console.log(data) })
+				if (line[0] == "Accept" || line[0] == "TurnIn" || line[0] == "Do") {
+					// fetch("https://www.wowhead.com/quest=233&xml")
+					// 	.then(response => response.text())
+					// 	.then((data) => { console.log(data) })
 					
-					console.log(line)
-					display += '<div class="col-12"><a href="https://www.wowhead.com/wotlk/quest=233" data-wowhead="quest=233">'+element+'</a></div>'
+					// questid = line[1].split(/[^\[]+(?=\])/g)
+					let regex = /[^\[]+(?=\])/g;
+					let questid = regex.exec(line[1])[0];
+					// console.log(questid.slice(2))
+					display += '<div class="col-12"><a target="_blank" and rel="noopener noreferrer" href="https://www.wowhead.com/wotlk/quest='+questid.slice(2)+'" data-wowhead="quest='+questid.slice(2)+'">'+element+'</a></div>'
 				}else {
 					display += '<div class="col-12">'+element+'</div>'
 				}
-				console.log(element)
+				// console.log(element)
 			}
 			
 		}
