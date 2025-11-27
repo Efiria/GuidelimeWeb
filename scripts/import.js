@@ -43,7 +43,18 @@ function loadGuide(fullPath) {
 		for (let index = 0; index < splitData.length; index++) {
 			const element = splitData[index];
 			if (index > 2 && index < (splitData.length-1)) {
-				display += '<div class="col-12">'+element+'</div>'
+				line = element.split(':')
+				//Accept: [QA233]
+				if (line[0] == "Accept") {
+					fetch("https://www.wowhead.com/wotlk/quest=233&xml")
+						.then(response => response.text())
+						.then((data) => { console.log(data) })
+					
+					console.log(line)
+					display += '<div class="col-12"><a href="https://www.wowhead.com/wotlk/quest=233" data-wowhead="quest=233">'+element+'</a></div>'
+				}else {
+					display += '<div class="col-12">'+element+'</div>'
+				}
 				console.log(element)
 			}
 			
