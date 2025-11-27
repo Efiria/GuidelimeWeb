@@ -46,7 +46,7 @@ function loadGuide(fullPath) {
 				line = element.split(':')
 				//Accept: [QA233]
 				if (line[0] == "Accept") {
-					fetch("https://www.wowhead.com/wotlk/quest=233&xml")
+					fetch("https://www.wowhead.com/quest=233&xml")
 						.then(response => response.text())
 						.then((data) => { console.log(data) })
 					
