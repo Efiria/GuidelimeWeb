@@ -4,22 +4,23 @@ var fileRead = '.\\guides\\GuideLime_TUGs_WOTLK.toc'
 fetch(fileRead)
   	.then(response => response.text())
   	.then((data) => {
-		console.log(data)
+		// console.log(data)
 		splitData = data.toString().split(/\r\n|\r|\n/g)
-		console.log(splitData)
+		// console.log(splitData)
 		let ul = document.getElementById("guide-list-display")
-		let display = "Guide List"
+		let display = 'Guide'
+		// display.
 		for (let index = 0; index < splitData.length; index++) {
 			let fullPath = splitData[index]
 			let element = fullPath.split("\\")
 			
-			let formatedPath= ('"guides_'+element[0] +'_'+ element[1]+'_'+ element[2])
-			console.log(element)
+			let formatedPath= ('"guides_'+element[0] +'_'+ element[1]+'_'+ element[2]+'"')
 			if (element[0] != null && element[0].length > 1) {
 				if (element[2]) {
-					display += "<li class='list-group-item guide-list-element' onclick='loadGuide("+formatedPath+")'>"+element[2]+"</li>"
+					display += "<li class='list-group-item guide-list-element' onclick='loadGuide("+formatedPath+")' >"+element[2]+"</li>"
 				} else {
 					display += "<li class='list-group-item guide-list-element' onclick='loadGuide("+formatedPath+")'>"+element[1]+"</li>"
+					// display += '<li class="list-group-item guide-list-element" onclick="loadGuide('+formatedPath+')" >'+element[1]+'</li>'
 				}
 			}
 		}	
@@ -28,6 +29,8 @@ fetch(fileRead)
 
 //Display guide when you click
 function loadGuide(fullPath) {
+	console.log(fullPath)
+
 	if (fullPath == "default") {
 		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Human.lua"
 	} 
@@ -39,6 +42,7 @@ function loadGuide(fullPath) {
 	fetch(fullPath)
 	.then(response => response.text())
 	.then((data) => {
+		console.log(data.toString())
 		splitData = data.toString().split(/\r\n|\r|\n/g)
 		for (let index = 0; index < splitData.length; index++) {
 			const element = splitData[index];
