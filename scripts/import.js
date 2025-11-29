@@ -29,20 +29,20 @@ fetch(fileRead)
 
 //Display guide when you click
 function loadGuide(fullPath) {
-	console.log(fullPath)
+	// console.log(fullPath)
 
 	if (fullPath == "default") {
 		fullPath = ".\\guides\\TUGs\\Alliance\\1-9Human.lua"
 	} 
 	fullPath = fullPath.replaceAll('_','\\')
-	console.log(fullPath)
+	// console.log(fullPath)
 	let guideViewer = document.getElementById("guide-viewer")
 	let display = ''
 
 	fetch(fullPath)
 	.then(response => response.text())
 	.then((data) => {
-		console.log(data.toString())
+		// console.log(data.toString())
 		splitData = data.toString().split(/\r\n|\r|\n/g)
 		for (let index = 0; index < splitData.length; index++) {
 			const element = splitData[index];
